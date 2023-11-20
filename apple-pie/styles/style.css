@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,48 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#main-container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.banner-img img {
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+
+.banner-header {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 5rem;
+}
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.cooking-info {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: auto;
+}
+
+h3 {
+  margin: 30px 0 20px;
+}
+
+ul li {
+  list-style-type: "-";
+  margin-left: 20px;
+}
+
+ol li {
+  margin-left: 20px;
+}
